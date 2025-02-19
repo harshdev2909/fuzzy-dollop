@@ -11,8 +11,9 @@ const roboto = Roboto({
 
 export default function Home() {
   return (
-    <div className="container mx-auto">
-      <header className="flex ">
+    <div className="w-full h-screen bg-hero-pattern bg-cover bg-center bg-no-repeat bg-black-50">
+    <div className=" w-full mx-auto sm:items-center sm:justify-center">
+      <header className="flex w-full h-full justify-between ">
       <h1 className="text-left m-2 p-5 text-4xl font-bold font-mono">100xDevs</h1>
       <div className="flex justify-end text-end items-end w-full gap-0 ">
       <h1 className="text-center m-2 p-5 text-3xl font-bold font-mono">Explore</h1>
@@ -21,6 +22,7 @@ export default function Home() {
       </div>
       </header>
       <hr></hr>
+    </div>
       <Hero/>
     </div>
   );
