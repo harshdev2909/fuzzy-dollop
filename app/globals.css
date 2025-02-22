@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
-}
+} */
 @theme {
   --font-roboto: "Roboto", sans-serif; 
 }
@@ -19,7 +19,7 @@
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #3f0fdf;
     --foreground: #ededed;
   }
 }
